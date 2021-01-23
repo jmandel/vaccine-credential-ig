@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Immunization xmlns="http://hl7.org/fhir">
+  <id value="ExampleImmunizationNoCVX"/>
+  <meta>
+    <profile value="http://hl7.org/fhir/us/vaccinecredential/StructureDefinition/vaccine-credential-immunization"/>
+  </meta>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative</b></p><p><b>status</b>: completed</p><p><b>vaccineCode</b>: <span title="Codes: ">Acme, Inc. COVID-19 vaccine (EUA)</span></p><p><b>patient</b>: <a href="Patient-Scenario1Patient.html">Generated Summary: Medical Record Number: m123 (USUAL); John B. Anyperson ; gender: male; birthDate: 1951-01-20</a></p><p><b>occurrence</b>: Jan 20, 2021, 7:45:33 PM</p><p><b>primarySource</b>: true</p><p><b>location</b>: <a href="Location-Scenario1Location.html">Generated Summary: name: ABC Pharmacy</a></p><p><b>lotNumber</b>: some lot number</p><h3>ProtocolApplieds</h3><table class="grid"><tr><td>-</td><td><b>TargetDisease</b></td><td><b>DoseNumber[x]</b></td><td><b>SeriesDoses[x]</b></td></tr><tr><td>*</td><td><span title="Codes: {http://snomed.info/sct 840539006}">COVID-19</span></td><td>1</td><td>2</td></tr></table></div>
+  </text>
+  <status value="completed"/>
+  <vaccineCode>
+    <coding>
+      <code value="OtherVaccine"/>
+      <display value="Other vaccine without published CVX"/>
+    </coding>
+    <text value="Acme, Inc. COVID-19 vaccine (EUA)"/>
+  </vaccineCode>
+  <patient>
+    <reference value="Patient/Scenario1Patient"/>
+  </patient>
+  <occurrenceDateTime value="2021-01-21T11:45:33+11:00"/>
+  <primarySource value="true"/>
+  <location>
+    <reference value="Location/Scenario1Location"/>
+  </location>
+  <lotNumber value="some lot number"/>
+  <protocolApplied>
+    <targetDisease>
+      <coding>
+        <system value="http://snomed.info/sct"/>
+        <code value="840539006"/>
+        <display value="COVID-19"/>
+      </coding>
+    </targetDisease>
+    <doseNumberPositiveInt value="1"/>
+    <seriesDosesPositiveInt value="2"/>
+  </protocolApplied>
+</Immunization>
