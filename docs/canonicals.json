@@ -1,0 +1,121 @@
+[
+  {
+    "id": "vaccine-credential-other-code-cs",
+    "type": "CodeSystem",
+    "url": "http://hl7.org/fhir/us/vaccinecredential/CodeSystem/vaccine-credential-other-code-cs",
+    "version": "0.1.0",
+    "name": "OtherCode"
+  },
+  {
+    "id": "hl7.fhir.us.vaccinecredential",
+    "type": "ImplementationGuide",
+    "url": "http://hl7.org/fhir/us/vaccinecredential/ImplementationGuide/hl7.fhir.us.vaccinecredential",
+    "version": "0.1.0",
+    "name": "VaccineCredentialIG"
+  },
+  {
+    "id": "vaccine-credential-bundle",
+    "type": "StructureDefinition",
+    "url": "http://hl7.org/fhir/us/vaccinecredential/StructureDefinition/vaccine-credential-bundle",
+    "version": "0.1.0",
+    "name": "VaccineCredentialBundle"
+  },
+  {
+    "id": "vaccine-credential-immune-status",
+    "type": "StructureDefinition",
+    "url": "http://hl7.org/fhir/us/vaccinecredential/StructureDefinition/vaccine-credential-immune-status",
+    "version": "0.1.0",
+    "name": "VaccineCredentialImmuneStatus"
+  },
+  {
+    "id": "vaccine-credential-immunization",
+    "type": "StructureDefinition",
+    "url": "http://hl7.org/fhir/us/vaccinecredential/StructureDefinition/vaccine-credential-immunization",
+    "version": "0.1.0",
+    "name": "VaccineCredentialImmunization"
+  },
+  {
+    "id": "vaccine-credential-patient",
+    "type": "StructureDefinition",
+    "url": "http://hl7.org/fhir/us/vaccinecredential/StructureDefinition/vaccine-credential-patient",
+    "version": "0.1.0",
+    "name": "VaccineCredentialPatient"
+  },
+  {
+    "id": "vaccine-credential-target-disease",
+    "type": "StructureDefinition",
+    "url": "http://hl7.org/fhir/us/vaccinecredential/StructureDefinition/vaccine-credential-target-disease",
+    "version": "0.1.0",
+    "name": "VaccineCredentialTargetDisease"
+  },
+  {
+    "id": "vaccine-credential-vaccine-reaction-observation",
+    "type": "StructureDefinition",
+    "url": "http://hl7.org/fhir/us/vaccinecredential/StructureDefinition/vaccine-credential-vaccine-reaction-observation",
+    "version": "0.1.0",
+    "name": "VaccineCredentialVaccineReactionObservation"
+  },
+  {
+    "id": "vaccine-credential-antibody-result-value-set",
+    "type": "ValueSet",
+    "url": "http://hl7.org/fhir/us/vaccinecredential/ValueSet/vaccine-credential-antibody-result-value-set",
+    "version": "0.1.0",
+    "name": "VaccineCredentialAntibodyResultValueSet"
+  },
+  {
+    "id": "vaccine-credential-cvx-value-set",
+    "type": "ValueSet",
+    "url": "http://hl7.org/fhir/us/vaccinecredential/ValueSet/vaccine-credential-cvx-value-set",
+    "version": "0.1.0",
+    "name": "VaccineCredentialCVXValueSet"
+  },
+  {
+    "id": "vaccine-credential-funding-source-value-set",
+    "type": "ValueSet",
+    "url": "http://hl7.org/fhir/us/vaccinecredential/ValueSet/vaccine-credential-funding-source-value-set",
+    "version": "0.1.0",
+    "name": "VaccineCredentialFundingSourceValueSet"
+  },
+  {
+    "id": "vaccine-credential-report-origin-value-set",
+    "type": "ValueSet",
+    "url": "http://hl7.org/fhir/us/vaccinecredential/ValueSet/vaccine-credential-report-origin-value-set",
+    "version": "0.1.0",
+    "name": "VaccineCredentialReportOriginValueSet"
+  },
+  {
+    "id": "vaccine-credential-status-reason-value-set",
+    "type": "ValueSet",
+    "url": "http://hl7.org/fhir/us/vaccinecredential/ValueSet/vaccine-credential-status-reason-value-set",
+    "version": "0.1.0",
+    "name": "VaccineCredentialStatusReasonValueSet"
+  },
+  {
+    "id": "vaccine-credential-target-disease-value-set",
+    "type": "ValueSet",
+    "url": "http://hl7.org/fhir/us/vaccinecredential/ValueSet/vaccine-credential-target-disease-value-set",
+    "version": "0.1.0",
+    "name": "VaccineCredentialTargetDiseaseValueSet"
+  },
+  {
+    "id": "vaccine-credential-vaccine-reaction-value-set",
+    "type": "ValueSet",
+    "url": "http://hl7.org/fhir/us/vaccinecredential/ValueSet/vaccine-credential-vaccine-reaction-value-set",
+    "version": "0.1.0",
+    "name": "VaccineCredentialVaccineReactionValueSet"
+  },
+  {
+    "id": "vaccine-credential-vaccine-route-value-set",
+    "type": "ValueSet",
+    "url": "http://hl7.org/fhir/us/vaccinecredential/ValueSet/vaccine-credential-vaccine-route-value-set",
+    "version": "0.1.0",
+    "name": "VaccineCredentialVaccineRouteValueSet"
+  },
+  {
+    "id": "vaccine-credential-vaccine-site-value-set",
+    "type": "ValueSet",
+    "url": "http://hl7.org/fhir/us/vaccinecredential/ValueSet/vaccine-credential-vaccine-site-value-set",
+    "version": "0.1.0",
+    "name": "VaccineCredentialVaccineSiteValueSet"
+  }
+]
